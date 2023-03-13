@@ -39,17 +39,17 @@ Just run the notebook and wait for the classifiers to train themselves. The obje
 ### Method 2 (On Device):
 
 Clone this repository to your local machine with the following command:</br>
-git clone https://github.com/athar-usama/bovw.git
+<pre>git clone https://github.com/athar-usama/bovw.git</pre>
 
 Install Python and Jupyter Notebook. You can download them from the official websites:
 #### Python: https://www.python.org/downloads/
 #### Jupyter Notebook: https://jupyter.org/install
 
 Install OpenCV and scikit-learn libraries using pip:</br>
-pip install opencv-python scikit-learn
+<pre>pip install opencv-python scikit-learn</pre>
 
 Launch Jupyter Notebook from the command line:</br>
-jupyter notebook
+<pre>jupyter notebook</pre>
 
 Open the .ipynb file in Jupyter Notebook and run the code.
 

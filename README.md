@@ -107,3 +107,6 @@ All you need is to run the code and wait for the classifiers to be trained.
 
 ### Incorrectly Classified Flower
 ![incor_flo](https://user-images.githubusercontent.com/41828100/224599117-d3f13abc-669b-4d35-b95c-9f6df001ab52.jpg)
+
+## Author
+Usama Athar atharusama99@gmail.com

@@ -1,12 +1,25 @@
 # bovw
 An image classification approach using Bag of Visual Words with SIFT features and two classifiers, Support Vector Machine (SVM) and Random Forest.
 
+## Contents
+1. [ Abstract ](#abs)
+2. [ Methodology Diagram ](#m_dig)
+3. [ Introduction ](#intro)
+4. [ Setup Instructions ](#setup)
+5. [ Usage Instructions ](#usage)
+6. [ Quantitative Results ](#quant_res)
+7. [ Visual Results ](#vis_res)
+8. [ Author ](#auth)
+
+<a name="abs"></a>
 ## Abstract
 An image classification approach using Bag of Visual Words with SIFT features and two classifiers, Support Vector Machine (SVM) and Random Forest. The purpose of this work is to compare the performance of both classifiers in classifying two datasets; objects_dataset & flowers_dataset. Experimental results demonstrate that both classifiers have decent accuracy in classifying images. The results also indicate that the performance of the classifiers is highly dependent on the choice of parameters as well as the feature extractor. Overall, the proposed approach shows promising results and can be used as a basis for more complex image classification tasks.
 
+<a name="m_dig"></a>
 ## Methodology Diagram
 ![methodology_diagram_2](https://user-images.githubusercontent.com/41828100/224599760-55d05b82-441c-44e5-9aa4-03dfcc501a04.png)
 
+<a name="intro"></a>
 ## Introduction
 Image classification is a fundamental problem in computer vision that involves categorizing images into different classes or categories. The task of image classification has numerous applications in various fields such as medical diagnosis, object recognition, face recognition, and autonomous vehicles. In recent years, many approaches have been proposed for image classification, including deep learning-based approaches such as Convolutional Neural Networks (CNNs), which have shown remarkable performance in various tasks. However, these approaches require large amounts of data and computational resources to train and optimize the models.
 
@@ -16,7 +29,8 @@ SIFT (Scale-Invariant Feature Transform) is a feature detector and descriptor co
 
 I have also compared the performance of SVM and Random Forest classifiers in the given datasets using Bag of Visual Words. SVM is a popular machine learning that constructs a hyperplane separating the data into different classes by maximizing the margin between the hyperplane and the nearest data points of each class. Random Forest is an ensemble learning method which constructs multiple decision trees and combines their predictions to classify the data. Random Forest is known for its high accuracy and robustness to noise and outliers.
 
-## Setup
+<a name="setup"></a>
+## Setup Instructions
 These are instructions for setting up the environment for running this code.
 
 The code performs image classification using Bag of Visual Words and SIFT features. It uses two datasets: objects dataset and flowers dataset. The classifiers used are Support Vector Machine (SVM) and Random Forest Classifier.
@@ -53,11 +67,13 @@ Launch Jupyter Notebook from the command line:</br>
 
 Open the .ipynb file in Jupyter Notebook and run the code.
 
+<a name="usage"></a>
 ## Usage Instructions
 The code is designed to work with two datasets: objects dataset and flowers dataset. Both of these datasets have already been uploaded on a publicly accessible Google Drive folder. That folder gets downloaded from inside the Google Colaboratory notebook. Therefore, there is no need to download it locally.
 
 All you need is to run the code and wait for the classifiers to be trained.
 
+<a name="quant_res"></a>
 ## Quantitative Results
 
 ### Objects Dataset
@@ -94,6 +110,7 @@ All you need is to run the code and wait for the classifiers to be trained.
 #### Model Accuracy
 ![flow_acc](https://user-images.githubusercontent.com/41828100/224598774-6551a5ac-a069-41aa-baf0-e973cd9e4109.jpg)
 
+<a name="vis_res"></a>
 ## Visual Results
 
 ### Correctly Classified Object
@@ -108,5 +125,6 @@ All you need is to run the code and wait for the classifiers to be trained.
 ### Incorrectly Classified Flower
 ![incor_flo](https://user-images.githubusercontent.com/41828100/224599117-d3f13abc-669b-4d35-b95c-9f6df001ab52.jpg)
 
+<a name="auth"></a>
 ## Author
 Usama Athar atharusama99@gmail.com
